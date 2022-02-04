@@ -1,0 +1,17 @@
+<head>
+		<title>Sign Up</title>
+	</head>	
+	<body>
+		<div id="Top">
+			<h1>Sign Up</h1>
+		</div>
+		<div>
+			<p>First Name</p>
+			<p>Last Name</p>
+			<p>Email Address</p>
+			<p>Password</p>
+			<a href="./hub.html">
+				<button>Submit</button>
+			</a>
+		</div>
+	</body>
