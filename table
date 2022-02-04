@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td {
+  border:1px solid black;
+}
+    </style>
+    <head>
+        <title>Student Database</title>
+        <h1>Cohort M23 Database</h1>
+    </head>
+    <body>
+        <!--<div> is good for keeping large chunks of code organized, by assigning it an id = ""-->
+        <div>
+            <h2>Database</h2>
+            <table style="width:100%">
+                <tr>
+                    <td>Name</td>
+                    <td>Course</td>
+                    <td>Extended Essay Title</td>
+                    <td>Reflections</td>
+                    <td>Tasks</td>
+                    <td>Submission Date & Time</td>
+                    <td>Due Date</td>
+                    <td>Traffic Light</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Global Politics</td>
+                    <td>To What Extend is Sovereignty relevant in the current political climate</td>
+                    <td>*Insert Reflection*</td>
+                    <td>None Due</td>
+                    <td>First Draft</td>
+                    <td>17th of September 2022</td>
+                    <td>Green</td>
+                </tr>
+            </table>
+        </div>
+        <!--<span> is good for keeping smaller chunks of code organized, such as specific elements-->
+        <span></span>
+    </body>
+</html>
