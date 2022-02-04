@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        /*CSS goes here*/
+        #header {
+			background-color: rgb(1, 47, 253);
+			margin: auto;
+			width: 52%;
+		}
+        #naislogo {
+			float: right;
+			/*Setting a custom width or height then setting the other to 'auto' avoid warped images*/
+			width: 350px; 
+			height: auto;
+        }
+    </style>
+    <head>
+        <title>Hub</title>
+    </head>
+    <body>
+        <!--<div> is good for keeping large chunks of code organized, by assigning it an id = ""-->
+        <div>
+            <h1>Hub</h1>
+        </div>
+        
+        <!--<span> is good for keeping smaller chunks of code organized, such as specific elements-->
+        <span>
+            <h1 id=header>Nord Anglia International School Hong Kong Extended Essay Central</h1>
+            <img id=naislogo src="./nais.png" alt="Nord Anglia International"></img>
+        </span>
+            <h2 id=subheader>Menu</h2>
+            <div id="nav">  
+                <ul>
+                    <!--You can link to other .html files via ./fileName.html-->
+                    <li><a href="./table.html">Student Database</a></li>
+                    <li><a href="./tasks.html" >Set Tasks</a></li>
+                </ul>
+    </body>
+</html>
