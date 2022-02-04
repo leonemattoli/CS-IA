@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Statement</title>
+    </head>
+    <body>
+        <div>
+            <p><span style="border: 1px solid black">Create New Tasks</span></p>
+        </div>
+        <span>
+            <div>
+                <a href="./hub.html">
+                    <button>Create Task</button>
+                </a>
+            </div>
+        </span>
+    </body>
+</html>
