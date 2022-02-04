@@ -10,7 +10,6 @@
         <h1>Cohort M23 Database</h1>
     </head>
     <body>
-        <!--<div> is good for keeping large chunks of code organized, by assigning it an id = ""-->
         <div>
             <h2>Database</h2>
             <table style="width:100%">
@@ -36,7 +35,6 @@
                 </tr>
             </table>
         </div>
-        <!--<span> is good for keeping smaller chunks of code organized, such as specific elements-->
         <span></span>
     </body>
 </html>
